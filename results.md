@@ -5,10 +5,8 @@
 The cross-country distribution of net nominal wages, net real wages, and implied price levels shows large heterogeneity across European economies.
 
 - Countries with high **net nominal wages** tend, on average, to display higher **price levels**.
-- However, the ranking of countries in terms of **net real wages** differs noticeably from the ranking in terms of **net nominal wages**, reflecting the role of differences in cost of living.
 - A first inspection of the data already suggests that some countries manage to combine relatively high real wages with comparatively moderate price levels, while others face the opposite configuration.
-
-These descriptive patterns motivate a more formal comparison based on Pareto efficiency and regression analysis.
+These descriptive patterns motivate a deeper comparison based on Pareto efficiency and regression analysis.
 
 ---
 
