@@ -3,7 +3,7 @@
 ## 1. Descriptive Patterns
 
 The distribution of net nominal wages, net real wages, and implicit price levels reveals significant heterogeneity across European economies.
-By estimating an ordinary least squares (OLS) regression of average net nominal and average net real wages on price levels, we observe that, on average, countries with higher net nominal wages also tend to display higher price levels.
+By estimating an ordinary least squares (OLS) regression of average net nominal and average net real wages on price levels, we observe that countries with higher net wages also tend to display higher price levels.
 The visualization of the regression line already suggests that some countries manage to combine relatively high real wages with moderate price levels, while others experience the opposite situation, characterized by lower real wages and a higher cost of living.
 These initial descriptive findings justify the need to pursue a more in-depth analysis.
 
