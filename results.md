@@ -15,7 +15,13 @@ These initial descriptive findings justify the need to pursue a more in-depth an
 
 ## 2. France as Benchmark
 
-France is used as an initial benchmark to assess relative performance.
+I use France as the initial benchmark to assess the relative performance of each European country in terms of average net wages — both in nominal and real terms — as well as the cost of living.
+For each country, I express the following indicators as a percentage of the French level:
+-Average nominal net wage
+-Average real net wage
+-Price level / cost of living
+On the regression line of average nominal or real net wages against price levels, France appears above the regression line.
+This indicates that, relative to its average wage level (whether nominal or real), the cost of living in France is comparatively moderate.
 
 | Country        | Net nominal wage | Net real wage | Price level | Nominal / France | Real / France | Price / France |
 |----------------|-----------------:|--------------:|------------:|-----------------:|--------------:|---------------:|
