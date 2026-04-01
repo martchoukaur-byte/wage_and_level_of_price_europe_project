@@ -1,16 +1,3 @@
-Voici ton texte reformaté et enrichi pour un RESULTS.md GitHub, en gardant intacts tes tableaux, images et structures, mais avec :
-
-quelques corrections de langue,
-
-un peu plus de gras sur les idées clés,
-
-des listes Markdown propres (avec espaces),
-
-une mise en page qui rend bien sur GitHub.
-
-Tu peux copier-coller tel quel :
-
-text
 # Results
 
 ## 1. Descriptive Patterns
