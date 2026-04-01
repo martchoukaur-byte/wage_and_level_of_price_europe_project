@@ -2,11 +2,10 @@
 
 ## 1. Descriptive Patterns
 
-The cross-country distribution of net nominal wages, net real wages, and implied price levels shows large heterogeneity across European economies.
-
-- Countries with high **net nominal wages** tend, on average, to display higher **price levels**.
-- A first inspection of the data already suggests that some countries manage to combine relatively high real wages with comparatively moderate price levels, while others face the opposite configuration.
-These descriptive patterns motivate a deeper comparison based on Pareto efficiency and regression analysis.
+The distribution of net nominal wages, net real wages, and implicit price levels reveals significant heterogeneity across European economies.
+By estimating an ordinary least squares (OLS) regression of net nominal and net real wages on price levels, we observe that, on average, countries with higher net nominal wages also tend to display higher price levels.
+The visualization of the regression line already suggests that some countries manage to combine relatively high real wages with moderate price levels, while others experience the opposite situation, characterized by lower real wages and a higher cost of living.
+These initial descriptive findings justify the need to pursue a more in-depth analysis.
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/5a8af7d4-b8a6-466e-9147-7a69fd0a1eda" />
 
