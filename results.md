@@ -162,7 +162,7 @@ As for the previous list, very different economies in terms of standard of livin
 
 ## 5. Log-Linear Regressions
 
-To quantify the relationship between wages and price levels, two **log-log regressions** are estimated:
+To quantify the relationship between wages and price levels, I estimate two **log–log regressions**:
 
 1. \(\ln(\text{Price Level})\) on \(\ln(\text{Net Nominal Wage})\)  
 2. \(\ln(\text{Price Level})\) on \(\ln(\text{Net Real Wage})\)  
@@ -175,8 +175,8 @@ Formally:
 
 where:
 
-- \(P_i\) is the price level in country \(i\),  
-- \(W_i\) is either the net nominal wage or the net real wage,  
+- \(P_i\) is the price level in country \(i\);  
+- \(W_i\) is either the net nominal wage or the net real wage;  
 - \(\beta\) is the **wage–price elasticity**.  
 
 The main findings are:
@@ -185,7 +185,7 @@ The main findings are:
 - countries with higher net nominal wages tend to have **higher price levels**;  
 - countries with higher net real wages also tend to have **higher price levels**.  
 
-This is consistent with the intuitive idea (and the **Balassa–Samuelson mechanism**) that richer countries, in terms of wages, tend to exhibit **higher price levels**.[web:1][web:2][web:3]
+This pattern is consistent with the intuitive idea — often linked to the **Balassa–Samuelson mechanism** — that richer countries, in terms of wages, tend to exhibit **higher price levels**.  
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/731a8a44-5e28-441f-a0b7-933753101bde" />
 
@@ -195,29 +195,22 @@ This is consistent with the intuitive idea (and the **Balassa–Samuelson mechan
 
 ## 6. Residual Analysis and Atypical Countries
 
-Beyond the average relationship captured by the regressions, the **residuals** are used to identify **atypical countries**.
+Beyond the average relationship captured by the regressions, the **residuals** are used to identify **atypical countries**.  
+A **large positive residual** means that the country’s price level is higher than what its wage level would predict (expensive relative to income).  
+A **large negative residual** means that the price level is lower than predicted (cheap relative to income).  
 
-- A **large positive residual** means that the country’s price level is **higher** than what its wage level would predict (expensive relative to income).  
-- A **large negative residual** means that the price level is **lower** than predicted (cheap relative to income).  
+Two sets of residuals are obtained:  
 
-Two sets of residuals are obtained:
+- residuals from the **nominal wage vs. price** regression;  
+- residuals from the **real wage vs. price** regression.  
 
-1. Residuals from the **nominal wage vs. price** regression.  
-2. Residuals from the **real wage vs. price** regression.  
+An interesting empirical finding is that the list of **Pareto-optimal countries** broadly overlaps with the **top 10 countries above the regression line**, both in the nominal wage vs. price and in the real wage vs. price specifications.  
+However, several countries appear in these top-10 lists without belonging to the set of Pareto-optimal countries, and conversely, some Pareto-optimal countries do not show up among the top 10 residuals.  
+In particular, **France does not appear** in the top-10 residual ranking, even though it is part of the Pareto set.  
 
-A key empirical result is that:
-
-- the list of the 10 countries with the largest residuals in the **real wage vs. price** regression differs from the list obtained in the **nominal wage vs. price** regression.  
-
-This difference reflects the fact that **nominal and real wages are not colinear**:
-
-- the gap between nominal and real wages is precisely the **effect of the price level**;  
-- countries that move significantly between the two residual rankings are those where the **price level** plays the most decisive role in transforming nominal income into **real purchasing power**.  
-
-In practical terms, these countries are particularly interesting because:
-
-- they may appear **“high income”** in nominal terms but lose much of this advantage once prices are taken into account; or  
-- they may look modest in nominal terms but deliver **surprisingly high purchasing power** thanks to low price levels.[web:7][web:10]  
+The charts also reveal that the points for **nominal wages** lie much closer to the regression line than the points for **real wages**.  
+This suggests that cross-country differences in price levels are more tightly aligned with **nominal wages** than with **real wages**.  
+Consistent with this, the \(R^2\) of the OLS regression using nominal wages exceeds **0.8**, whereas the \(R^2\) of the regression using real wages is **below 0.6**. 
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/9139474c-8d03-4b5a-a6fd-97f5bbf00a97" />
 
@@ -242,6 +235,6 @@ In practical terms, these countries are particularly interesting because:
 Taken together, the results indicate that:
 
 - cross-country differences in **net nominal wages** in Europe cannot be read independently of **price levels**;  
-- some countries, such as those on the **Pareto frontier** (including France), manage to occupy positions where no other country strictly dominates them in both **real wages** and **prices**;[web:12][web:14]  
-- other countries are **substantially dominated**, with many peers offering both higher real wages and lower prices;  
-- the divergence between residual-based rankings in the nominal and real specifications highlights where the **cost of living** is the main driver of the gap between **nominal income** and **actual purchasing power**.[web:7][web:10] 
+- some countries, such as those on the **Pareto frontier** (including France), manage to occupy positions where no other country strictly dominates them in both **real wages** and **prices**;  
+- other countries are **substantially "dominated"**, meaning that many european peers offer both higher real wages and lower prices;  
+- the divergence between residual-based rankings in the nominal and real specifications highlights where the **cost of living** is the main driver of the gap between **nominal income** and **actual purchasing power**. 
