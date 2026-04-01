@@ -109,8 +109,8 @@ A country is considered **Pareto-optimal** in our analysis if there is no other 
 - a lower price level.  
 
 The resulting **Pareto set**:  
-- includes France, as well as a group of other European countries;  
-- consists of country profiles for which, in international comparison, any country offering a higher average real wage also comes with a higher price level, and, conversely, any country with a lower cost of living is associated with a lower real wage.
+- includes France, as well as a group of other European countries;
+- 9 countries appear to be Pareto_optimal including very different economies in terms of standard of living such as Georgia, Russia, Serbia outside the EU as well as Poland, Spain, Andorra, France and Austria and Denmark
 
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | Pareto flag |
@@ -131,19 +131,17 @@ The resulting **Pareto set**:
 
 ## 4. Most Dominated Countries
 
-The analysis then turns to the opposite cases: countries that are **dominated**, in terms of **purchasing power (real wage)** and **price level**, by many others.
+The analysis then turns to the opposite cases: countries that are **"dominated"**, in terms of **purchasing power (real wage)** and **price level**, by many others.
 
-For each country, the number of **"dominating" countries** is counted, where a dominating country is defined as one that has:
-
+For each country, the number of **"dominating" countries"** is counted, where a dominating country is defined as one that has:
 - a higher net real wage; and  
 - a lower price level.  
 
 The **most "dominated"** countries are those for which this count is largest. These economies:
-
 - face the most unfavourable combination of relatively low real income and relatively high prices;  
-- can be seen as being in a systematically more unfavourable position than a large portion of the sample.  
+- include 10 countries that display more than 8 "dominating country" at least for each of them
 
-This ranking highlights where the **gap in living standards and cost of living** is most pronounced relative to the rest of Europe.
+As for the previous list, very different economies in terms of standard of living show up as Turkey, Greece, Slovakia, Portugal, Albania, Kosova, Malta are present in the list as well as Iceland and Finland
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | n_dominating_countries |
 |----------|-----------------:|--------------:|------------:|-----------------:|--------------:|----------:|-----------------------:|
