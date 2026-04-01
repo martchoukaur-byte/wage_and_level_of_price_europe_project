@@ -1,11 +1,24 @@
+Voici ton texte reformaté et enrichi pour un RESULTS.md GitHub, en gardant intacts tes tableaux, images et structures, mais avec :
+
+quelques corrections de langue,
+
+un peu plus de gras sur les idées clés,
+
+des listes Markdown propres (avec espaces),
+
+une mise en page qui rend bien sur GitHub.
+
+Tu peux copier-coller tel quel :
+
+text
 # Results
 
 ## 1. Descriptive Patterns
 
-The distribution of net nominal wages, net real wages, and implicit price levels reveals significant heterogeneity across European economies.
-By estimating an ordinary least squares (OLS) regression of average net nominal and average net real wages on price levels, we observe that countries with higher net wages also tend to display higher price levels.
-The visualization of the regression line already suggests that some countries manage to combine relatively high real wages with moderate price levels, while others experience the opposite situation, characterized by lower real wages and a higher cost of living.
-These initial descriptive findings justify the need to pursue a more in-depth analysis.
+The distribution of **net nominal wages**, **net real wages**, and **implicit price levels** reveals significant heterogeneity across European economies.  
+By estimating an ordinary least squares (**OLS**) regression of average net nominal and average net real wages on price levels, we observe that countries with higher net wages also tend to display higher price levels.  
+However, the regression line suggests that some countries manage to combine **relatively high real wages** with **moderate price levels** in comparison, while others experience the opposite situation, characterized by **lower real wages** and a **relatively higher cost of living**.  
+These initial descriptive findings justify the need to pursue a **more in-depth analysis**.
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/5a8af7d4-b8a6-466e-9147-7a69fd0a1eda" />
 
@@ -15,13 +28,15 @@ These initial descriptive findings justify the need to pursue a more in-depth an
 
 ## 2. France as Benchmark
 
-I use France as the initial benchmark to assess the relative performance of each European country in terms of average net wages — both in nominal and real terms — as well as the cost of living.
+I use **France** as the initial benchmark to assess the relative performance of each European country in terms of **average net wages** — both in nominal and real terms — as well as the **cost of living**.  
 For each country, I express the following indicators as a percentage of the French level:
--Average nominal net wage
--Average real net wage
--Price level / cost of living
-On the regression line of average nominal or real net wages against price levels, France appears above the regression line.
-This indicates that, relative to its average wage level (whether nominal or real), the cost of living in France is comparatively moderate.
+
+- Average nominal net wage  
+- Average real net wage  
+- Price level / cost of living  
+
+On the regression line of average nominal or real net wages against price levels, **France appears above the regression line**.  
+This indicates that, **relative to its average wage level** (whether nominal or real), the **cost of living in France is comparatively moderate**.
 
 | Country        | Net nominal wage | Net real wage | Price level | Nominal / France | Real / France | Price / France |
 |----------------|-----------------:|--------------:|------------:|-----------------:|--------------:|---------------:|
@@ -78,36 +93,44 @@ This indicates that, relative to its average wage level (whether nominal or real
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/85a55b85-7780-4ffc-88dc-6c2ff48a112a" />
 
-From a table, I summarize the relative situation of other European countries in comparison with France.
- 
+From a table, I summarize the **relative situation** of other European countries in comparison with France.
+
+```text
 "n_higher_real_wage_than_france","n_lower_real_wage_than_france","n_higher_nominal_wage_than_france","n_lower_nominal_wage_than_france","n_higher_price_level_than_france","n_lower_price_level_than_france"
 "8","39","12","35","15","32"
+```
 
-One of the most striking findings from this table is that no country manages to combine, relative to France, a higher average real net wage with a lower cost of living. Indeed, all economies displaying higher real net wages systematically exhibit higher price levels. Graphically, France’s position can thus be interpreted as a Pareto optimum between these two variables — the average real net wage and the cost of living — since, within this sample, there is no alternative that would allow for an improvement in real wages without simultaneously facing an increase in price levels.
+One of the most striking findings from this table is that **no country** manages to combine, relative to France, a **higher average real net wage** with a **lower cost of living**.  
+Indeed, all economies displaying higher real net wages systematically exhibit higher price levels.  
+Graphically, France’s position can thus be interpreted as a **Pareto optimum** between these two variables — the average real net wage and the cost of living — since, within this sample, there is **no alternative** that would allow for an improvement in real wages without simultaneously facing an increase in price levels.
 
-In the Pareto sense, and considering these two variables, a country “dominates France” if it simultaneously exhibits:
-a higher net real wage, and
-a lower price level.
+In the Pareto sense, and considering these two variables, a country *“dominates France”* if it simultaneously exhibits:
 
-Selon ce critère :
-Aucun pays de l’échantillon n’offre simultanément un salaire net moyen réel plus élevé et un niveau de prix plus faible que la France.
+- a higher net real wage, and  
+- a lower price level.  
 
-Graphiquement, la France apparaît comme un équilibre de Pareto optimal dans l’espace bidimensionnel défini par le salaire réel et le niveau des prix.
-Cela ne signifie pas que la France soit le « meilleur » pays sur chacune de ces dimensions, mais plutôt qu’il n’existe aucune combinaison strictement meilleure de revenu et de coût de la vie dans l’échantillon observé.
+Selon ce critère :  
+**Aucun pays** de l’échantillon n’offre simultanément un salaire net moyen réel plus élevé et un niveau de prix plus faible que la France.  
+
+Graphiquement, la France apparaît comme un **équilibre de Pareto optimal** dans l’espace bidimensionnel défini par le salaire réel et le niveau des prix.  
+Cela ne signifie pas que la France soit le « meilleur » pays sur chacune de ces dimensions, mais plutôt qu’il n’existe **aucune combinaison strictement meilleure** de revenu et de coût de la vie dans l’échantillon observé.
 
 ---
 
 ## 3. Pareto-Optimal Countries in the Panel
 
-L’analyse de Pareto est ensuite étendue à l’ensemble des pays.
-Un pays est considéré comme Pareto-optimal dans notre analyse s’il n’existe aucun autre pays de l’échantillon présentant simultanément :
-un salaire net réel plus élevé ; et
-un niveau de prix plus faible.
+L’analyse de Pareto est ensuite étendue à l’ensemble des pays.  
+Un pays est considéré comme **Pareto-optimal** dans notre analyse s’il n’existe aucun autre pays de l’échantillon présentant simultanément :
+
+- un salaire net réel plus élevé ; et  
+- un niveau de prix plus faible.  
 
 L’ensemble de Pareto obtenu :
-inclut la France, ainsi qu’un petit groupe d’autres pays ;
-rassemble des profils nationaux pour lesquels, en comparaison internationale, tout pays offrant un salaire réel moyen plus élevé s’accompagne également d’un niveau de prix supérieur, ou, à l’inverse, tout pays affichant un coût de la vie plus faible est associé à un salaire réel plus bas.
-En d’autres termes, ces pays se situent sur la frontière d’efficience empirique, définie par le pouvoir d’achat et le coût de la vie
+
+- inclut la France, ainsi qu’un petit groupe d’autres pays ;  
+- rassemble des profils nationaux pour lesquels, en comparaison internationale, tout pays offrant un salaire réel moyen plus élevé s’accompagne également d’un niveau de prix supérieur, ou, à l’inverse, tout pays affichant un coût de la vie plus faible est associé à un salaire réel plus bas.  
+
+En d’autres termes, ces pays se situent sur la **frontière d’efficience empirique**, définie par le **pouvoir d’achat** et le **coût de la vie**.
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | Pareto flag |
 |----------|-----------------:|--------------:|------------:|-----------------:|--------------:|----------:|-----------:|
@@ -127,16 +150,19 @@ En d’autres termes, ces pays se situent sur la frontière d’efficience empir
 
 ## 4. Most Dominated Countries
 
-The analysis then turns to the opposite cases: countries that are dominated, in terms of purchasing power (real wage) and price level, by many others.
+The analysis then turns to the opposite cases: countries that are **dominated**, in terms of **purchasing power (real wage)** and **price level**, by many others.
 
 For each country, the number of **"dominating" countries** is counted, where a dominating country is defined as one that has:
-- a higher net real wage; and
-- a lower price level.
+
+- a higher net real wage; and  
+- a lower price level.  
 
 The **most "dominated"** countries are those for which this count is largest. These economies:
-- face the most unfavourable combination of relatively low real income and relatively high prices;
-- can be seen as being in a systematically plus défavorable position than a large portion of the sample.
-This ranking highlights where the gap in living standards and cost of living is most pronounced relative to the rest of Europe.
+
+- face the most unfavourable combination of relatively low real income and relatively high prices;  
+- can be seen as being in a systematically more unfavourable position than a large portion of the sample.  
+
+This ranking highlights where the **gap in living standards and cost of living** is most pronounced relative to the rest of Europe.
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | n_dominating_countries |
 |----------|-----------------:|--------------:|------------:|-----------------:|--------------:|----------:|-----------------------:|
@@ -157,25 +183,30 @@ This ranking highlights where the gap in living standards and cost of living is 
 
 ## 5. Log-Linear Regressions
 
-To quantify the relationship between wages and price levels, two log-log regressions are estimated:
+To quantify the relationship between wages and price levels, two **log-log regressions** are estimated:
 
 1. \(\ln(\text{Price Level})\) on \(\ln(\text{Net Nominal Wage})\)  
-2. \(\ln(\text{Price Level})\) on \(\ln(\text{Net Real Wage})\)
+2. \(\ln(\text{Price Level})\) on \(\ln(\text{Net Real Wage})\)  
 
 Formally:
+
 \[
 \ln P_i = \alpha + \beta \ln W_i + \varepsilon_i
 \]
+
 where:
-- \(P_i\) is the price level in country \(i\),
-- \(W_i\) is either the net nominal wage or the net real wage,
-- \(\beta\) is the wage–price elasticity.
+
+- \(P_i\) is the price level in country \(i\),  
+- \(W_i\) is either the net nominal wage or the net real wage,  
+- \(\beta\) is the **wage–price elasticity**.  
 
 The main findings are:
-- In both specifications, the estimated elasticity \(\beta\) is **positive**.
-- Countries with higher net nominal wages tend to have higher price levels.
-- Countries with higher net real wages also tend to have higher price levels.
-This is consistent with the intuitive idea (and the Balassa–Samuelson mechanism) that richer countries, in terms of wages, tend to exhibit higher price levels.
+
+- in both specifications, the estimated elasticity \(\beta\) is **positive**;  
+- countries with higher net nominal wages tend to have **higher price levels**;  
+- countries with higher net real wages also tend to have **higher price levels**.  
+
+This is consistent with the intuitive idea (and the **Balassa–Samuelson mechanism**) that richer countries, in terms of wages, tend to exhibit **higher price levels**.[web:1][web:2][web:3]
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/731a8a44-5e28-441f-a0b7-933753101bde" />
 
@@ -185,24 +216,29 @@ This is consistent with the intuitive idea (and the Balassa–Samuelson mechanis
 
 ## 6. Residual Analysis and Atypical Countries
 
-Beyond the average relationship captured by the regressions, the **residuals** are used to identify atypical countries.
-- A **large positive residual** means that the country’s price level is **higher** than what its wage level would predict (expensive relative to income).
-- A **large negative residual** means that the price level is **lower** than predicted (cheap relative to income).
+Beyond the average relationship captured by the regressions, the **residuals** are used to identify **atypical countries**.
+
+- A **large positive residual** means that the country’s price level is **higher** than what its wage level would predict (expensive relative to income).  
+- A **large negative residual** means that the price level is **lower** than predicted (cheap relative to income).  
 
 Two sets of residuals are obtained:
-1. Residuals from the **nominal wage vs. price** regression.
-2. Residuals from the **real wage vs. price** regression.
+
+1. Residuals from the **nominal wage vs. price** regression.  
+2. Residuals from the **real wage vs. price** regression.  
 
 A key empirical result is that:
-- The list of the 10 countries with the largest residuals in the **real wage vs. price** regression differs from the list obtained in the **nominal wage vs. price** regression.
+
+- the list of the 10 countries with the largest residuals in the **real wage vs. price** regression differs from the list obtained in the **nominal wage vs. price** regression.  
 
 This difference reflects the fact that **nominal and real wages are not colinear**:
-- The gap between nominal and real wages is precisely the effect of the price level.
-- Countries that move significantly between the two residual rankings are those where the price level plays the most decisive role in transforming nominal income into real purchasing power.
+
+- the gap between nominal and real wages is precisely the **effect of the price level**;  
+- countries that move significantly between the two residual rankings are those where the **price level** plays the most decisive role in transforming nominal income into **real purchasing power**.  
 
 In practical terms, these countries are particularly interesting because:
-- they may appear “high income” in nominal terms but lose much of this advantage once prices are taken into account; or
-- they may look modest in nominal terms but deliver surprisingly high purchasing power thanks to low price levels.
+
+- they may appear **“high income”** in nominal terms but lose much of this advantage once prices are taken into account; or  
+- they may look modest in nominal terms but deliver **surprisingly high purchasing power** thanks to low price levels.[web:7][web:10]  
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/9139474c-8d03-4b5a-a6fd-97f5bbf00a97" />
 
@@ -226,7 +262,7 @@ In practical terms, these countries are particularly interesting because:
 
 Taken together, the results indicate that:
 
-- Cross-country differences in net nominal wages in Europe cannot be read independently of price levels.
-- Some countries, such as those on the Pareto frontier (including France), manage to occupy positions where no other country strictly dominates them in both real wages and prices.
-- Other countries are substantially dominated, with many peers offering both higher real wages and lower prices.
-- The divergence between residual-based rankings in the nominal and real specifications highlights where the **cost of living** is the main driver of the gap between nominal income and actual purchasing power.
+- cross-country differences in **net nominal wages** in Europe cannot be read independently of **price levels**;  
+- some countries, such as those on the **Pareto frontier** (including France), manage to occupy positions where no other country strictly dominates them in both **real wages** and **prices**;[web:12][web:14]  
+- other countries are **substantially dominated**, with many peers offering both higher real wages and lower prices;  
+- the divergence between residual-based rankings in the nominal and real specifications highlights where the **cost of living** is the main driver of the gap between **nominal income** and **actual purchasing power**.[web:7][web:10] 
