@@ -22,9 +22,6 @@ For each country, I express the following indicators as a percentage of the Fren
 - Average real net wage  
 - Price level / cost of living  
 
-On the regression line of average nominal or real net wages against price levels, **France appears above the regression line**.  
-This indicates that, **relative to its average wage level** (whether nominal or real), the **cost of living in France is comparatively moderate**.
-
 | Country        | Net nominal wage | Net real wage | Price level | Nominal / France | Real / France | Price / France |
 |----------------|-----------------:|--------------:|------------:|-----------------:|--------------:|---------------:|
 | Ireland        | 3349             | 4526          | 0.7399      | 1.2254           | 1.1063        | 1.1075         |
@@ -76,9 +73,14 @@ This indicates that, **relative to its average wage level** (whether nominal or 
 | Malta          | 1448             | 2691          | 0.5381      | 0.5298           | 0.6578        | 0.8054         |
 | Kazakhstan     | 578              | 2102          | 0.2750      | 0.2115           | 0.5138        | 0.4116         |
 
+Then, I explicitly plot France on the regression charts.
+
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/93b35e24-c5e7-4f9c-af27-0afc141af8b5" />
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/85a55b85-7780-4ffc-88dc-6c2ff48a112a" />
+
+On the regression line of average nominal or real net wages against price levels, **France appears above the regression line**.  
+This indicates that, **relative to its average wage level** (whether nominal or real), the **cost of living in France is comparatively moderate**.
 
 From a table, I summarize the **relative situation** of other European countries in comparison with France.
 
