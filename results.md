@@ -110,7 +110,7 @@ A country is considered **Pareto-optimal** in our analysis if there is no other 
 
 The resulting **Pareto set**:  
 - includes France, as well as a group of other European countries;
-- 9 countries appear to be Pareto_optimal including very different economies in terms of standard of living such as Georgia, Russia, Serbia outside the EU as well as Poland, Spain, Andorra, France and Austria and Denmark
+- 9 countries appear to be Pareto_optimal including very different economies in terms of standard of living such as Georgia, Russia, Serbia outside the EU as well as Poland, Spain, Andorra, France and Austria and Denmark for EU countries
 
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | Pareto flag |
