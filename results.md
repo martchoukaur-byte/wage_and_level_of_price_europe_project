@@ -78,36 +78,36 @@ This indicates that, relative to its average wage level (whether nominal or real
 
 <img width="1536" height="754" alt="image" src="https://github.com/user-attachments/assets/85a55b85-7780-4ffc-88dc-6c2ff48a112a" />
 
-For each country in the sample, we compare:
-- its **average net real wage** with that of France; and
-- its **price level** with that of France.
-- 
+From a table, I summarize the relative situation of other European countries in comparison with France.
+ 
 "n_higher_real_wage_than_france","n_lower_real_wage_than_france","n_higher_nominal_wage_than_france","n_lower_nominal_wage_than_france","n_higher_price_level_than_france","n_lower_price_level_than_france"
 "8","39","12","35","15","32"
 
-A country is said to **dominate France** if it simultaneously has:
-- a **higher** net real wage; and
-- a **lower** price level.
+One of the most striking findings from this table is that no country manages to combine, relative to France, a higher average real net wage with a lower cost of living. Indeed, all economies displaying higher real net wages systematically exhibit higher price levels. Graphically, France’s position can thus be interpreted as a Pareto optimum between these two variables — the average real net wage and the cost of living — since, within this sample, there is no alternative that would allow for an improvement in real wages without simultaneously facing an increase in price levels.
 
-Under this criterion:
-- No country in the sample simultaneously offers a higher average net real wage and a lower price level than France.
-- France is therefore **Pareto-optimal** in the two-dimensional space defined by (real wage, price level).
-This does not mean France is the “best” country on any single dimension, but that there is no strictly better combination of income and cost of living in the observed panel.
+In the Pareto sense, and considering these two variables, a country “dominates France” if it simultaneously exhibits:
+a higher net real wage, and
+a lower price level.
+
+Selon ce critère :
+Aucun pays de l’échantillon n’offre simultanément un salaire net moyen réel plus élevé et un niveau de prix plus faible que la France.
+
+Graphiquement, la France apparaît comme un équilibre de Pareto optimal dans l’espace bidimensionnel défini par le salaire réel et le niveau des prix.
+Cela ne signifie pas que la France soit le « meilleur » pays sur chacune de ces dimensions, mais plutôt qu’il n’existe aucune combinaison strictement meilleure de revenu et de coût de la vie dans l’échantillon observé.
 
 ---
 
 ## 3. Pareto-Optimal Countries in the Panel
 
-The Pareto analysis is then extended to all countries.
+L’analyse de Pareto est ensuite étendue à l’ensemble des pays.
+Un pays est considéré comme Pareto-optimal dans notre analyse s’il n’existe aucun autre pays de l’échantillon présentant simultanément :
+un salaire net réel plus élevé ; et
+un niveau de prix plus faible.
 
-A country is classified as **Pareto-optimal** if there is no other country in the sample that simultaneously:
-- has a **higher** net real wage; and
-- has a **lower** price level.
-
-The resulting Pareto set:
-- contains France and a small subset of other countries;
-- consists of **non-dominated** country profiles where any further gain in real wage would require accepting a higher price level, or any reduction in price level would come with a lower real wage.
-In other words, these countries lie on the empirical “efficiency frontier” defined by purchasing power and cost of living.
+L’ensemble de Pareto obtenu :
+inclut la France, ainsi qu’un petit groupe d’autres pays ;
+rassemble des profils nationaux pour lesquels, en comparaison internationale, tout pays offrant un salaire réel moyen plus élevé s’accompagne également d’un niveau de prix supérieur, ou, à l’inverse, tout pays affichant un coût de la vie plus faible est associé à un salaire réel plus bas.
+En d’autres termes, ces pays se situent sur la frontière d’efficience empirique, définie par le pouvoir d’achat et le coût de la vie
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | Pareto flag |
 |----------|-----------------:|--------------:|------------:|-----------------:|--------------:|----------:|-----------:|
@@ -127,15 +127,15 @@ In other words, these countries lie on the empirical “efficiency frontier” d
 
 ## 4. Most Dominated Countries
 
-The analysis then looks at the opposite cases: countries that are dominated by many others.
+The analysis then turns to the opposite cases: countries that are dominated, in terms of purchasing power (real wage) and price level, by many others.
 
-For each country, the number of **dominating countries** is counted, where a dominating country is defined as one that has:
+For each country, the number of **"dominating" countries** is counted, where a dominating country is defined as one that has:
 - a higher net real wage; and
 - a lower price level.
 
-The **most dominated** countries are those for which this count is largest. These economies:
+The **most "dominated"** countries are those for which this count is largest. These economies:
 - face the most unfavourable combination of relatively low real income and relatively high prices;
-- can be seen as being in a systematically worse position than a large portion of the sample.
+- can be seen as being in a systematically plus défavorable position than a large portion of the sample.
 This ranking highlights where the gap in living standards and cost of living is most pronounced relative to the rest of Europe.
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | n_dominating_countries |
