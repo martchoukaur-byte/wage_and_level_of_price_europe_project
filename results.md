@@ -84,25 +84,20 @@ This indicates that, **relative to its average wage level** (whether nominal or 
 
 From a table, I summarize the **relative situation** of other European countries in comparison with France.
 
-```text
-"n_higher_real_wage_than_france","n_lower_real_wage_than_france","n_higher_nominal_wage_than_france","n_lower_nominal_wage_than_france","n_higher_price_level_than_france","n_lower_price_level_than_france"
-"8","39","12","35","15","32"
-```
+| n_higher_real_wage_than_france | n_lower_real_wage_than_france | n_higher_nominal_wage_than_france | n_lower_nominal_wage_than_france | n_higher_price_level_than_france | n_lower_price_level_than_france |
+|--------------------------------|--------------------------------|-----------------------------------|----------------------------------|----------------------------------|---------------------------------|
+| 8                              | 39                             | 12                                | 35                               | 15                               | 32                              |
 
-One of the most striking findings from this table is that **no country** manages to combine, relative to France, a **higher average real net wage** with a **lower cost of living**.  
-Indeed, all economies displaying higher real net wages systematically exhibit higher price levels.  
-Graphically, France’s position can thus be interpreted as a **Pareto optimum** between these two variables — the average real net wage and the cost of living — since, within this sample, there is **no alternative** that would allow for an improvement in real wages without simultaneously facing an increase in price levels.
 
-In the Pareto sense, and considering these two variables, a country *“dominates France”* if it simultaneously exhibits:
+One of the most striking findings from this table is that no country manages to combine, relative to France, a **higher average real net wage** with a **lower cost of living**.  
+Indeed, all economies displaying higher real net wages systematically exhibit **higher price levels**.  
 
-- a higher net real wage, and  
-- a lower price level.  
+In the Pareto sense, and considering these two variables, a country would *“dominate France”* graphically if it simultaneously exhibits:
 
-Selon ce critère :  
-**Aucun pays** de l’échantillon n’offre simultanément un salaire net moyen réel plus élevé et un niveau de prix plus faible que la France.  
+- a **higher** net real wage, and  
+- a **lower** price level.  
 
-Graphiquement, la France apparaît comme un **équilibre de Pareto optimal** dans l’espace bidimensionnel défini par le salaire réel et le niveau des prix.  
-Cela ne signifie pas que la France soit le « meilleur » pays sur chacune de ces dimensions, mais plutôt qu’il n’existe **aucune combinaison strictement meilleure** de revenu et de coût de la vie dans l’échantillon observé.
+Graphically, France’s position can thus be interpreted as a **Pareto optimum** between these two variables — the **average real net wage** and the **cost of living** — since, within this sample, there is **no alternative** that would allow for an improvement in real wages without simultaneously facing an increase in price levels.  
 
 ---
 
