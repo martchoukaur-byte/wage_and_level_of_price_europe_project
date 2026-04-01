@@ -103,18 +103,15 @@ Graphically, France’s position can thus be interpreted as a **Pareto optimum**
 
 ## 3. Pareto-Optimal Countries in the Panel
 
-L’analyse de Pareto est ensuite étendue à l’ensemble des pays.  
-Un pays est considéré comme **Pareto-optimal** dans notre analyse s’il n’existe aucun autre pays de l’échantillon présentant simultanément :
+The Pareto analysis is then extended to the full set of countries.  
+A country is considered **Pareto-optimal** in our analysis if there is no other country in the sample that simultaneously exhibits:  
+- a higher net real wage; and  
+- a lower price level.  
 
-- un salaire net réel plus élevé ; et  
-- un niveau de prix plus faible.  
+The resulting **Pareto set**:  
+- includes France, as well as a group of other European countries;  
+- consists of country profiles for which, in international comparison, any country offering a higher average real wage also comes with a higher price level, and, conversely, any country with a lower cost of living is associated with a lower real wage.
 
-L’ensemble de Pareto obtenu :
-
-- inclut la France, ainsi qu’un petit groupe d’autres pays ;  
-- rassemble des profils nationaux pour lesquels, en comparaison internationale, tout pays offrant un salaire réel moyen plus élevé s’accompagne également d’un niveau de prix supérieur, ou, à l’inverse, tout pays affichant un coût de la vie plus faible est associé à un salaire réel plus bas.  
-
-En d’autres termes, ces pays se situent sur la **frontière d’efficience empirique**, définie par le **pouvoir d’achat** et le **coût de la vie**.
 
 | Country  | Net nominal wage | Net real wage | Price level | ln(nominal wage) | ln(real wage) | Residual  | Pareto flag |
 |----------|-----------------:|--------------:|------------:|-----------------:|--------------:|----------:|-----------:|
